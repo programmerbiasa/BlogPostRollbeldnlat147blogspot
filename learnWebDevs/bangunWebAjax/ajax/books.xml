@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bookstore>
+    <book category="PROGRAMMING">
+        <title lang="en">
+            Basis Data
+        </title>
+        <author>Andi Sunyoto</author>
+        <year>2008</year>
+        <price>30.000</price>
+    </book>
+    
+    <book category="MANAJEMEN">
+        <title lang="en">Strategic Management</title>
+        <author>Raymond Mc.Leod</author>
+        <year>2010</year>
+        <price>290.999</price>
+    </book>
+    
+    <book category="WEB">
+        <title lang="en">Pemrograman Internet </title>
+        <author>Andi Sunyoto, Andri Kurniawan, Prasetyo Adi, James Linn, Ginanjar Kusumo</author>
+        <year>2009</year>
+        <price>100.000</price>
+    </book>
+    
+    <book category="WEB">
+        <title lang="en">Belajar XML</title>
+        <author>Patria Adi</author>
+        <year>2010</year>
+        <price>40.950</price>
+    </book>
+</bookstore>
