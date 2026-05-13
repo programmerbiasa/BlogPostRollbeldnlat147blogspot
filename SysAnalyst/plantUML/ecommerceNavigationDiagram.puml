@@ -1,0 +1,16 @@
+/' License: 
+ Creately Desktop - End User License Agreement (EULA)  
+ PlantUML is GNU General Public License as published by the Free Software Foundation, either version 3 of the License.
+'/
+@startwbs
+*(a) Home
+**(b) "view\n products"
+**(c) Login
+***(g) profile
+***(h) settings
+**(d) shop now
+**(e) view cart
+**(f) checkout
+*** Login
+****(i) payment
+@endwbs
