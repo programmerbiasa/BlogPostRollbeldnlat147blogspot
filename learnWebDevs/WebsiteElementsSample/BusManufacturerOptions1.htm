@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+<title>Top Bus Manufactures: Pull-down Menu</title>
+
+</head>
+
+<body>
+
+
+
+<center>
+
+<h1>Bus Manufactures</h1>
+
+( Choose based on your appropriate requirement )
+
+</center>
+
+You can choose from one of this following options:
+
+
+
+<!-- construct the form and select options -->
+
+<form name="frmBusBrands">
+
+<select name="listBusBrands" id="listBusBrands" onchange="doShowTheOptions(this)" size="1">
+
+</select>
+
+</form>
+
+<div id="outputBusBrands"></div>
+
+
+
+<script language="javascript" type="text/javascript">
+
+<!-- --- -->
+
+<!-- Written by private course and tutor course inspired by w3schools -->
+
+<!--  //
+
+// create an Array using the javascript keyword new
+
+var busBrands = new Array(14);
+
+// changing Array element
+
+busBrands[0] = "Anhui Ankai Automobile Co. Ltd";
+
+busBrands[1] = "GAZ Group";
+
+busBrands[2] = "Higer Bus";
+
+busBrands[3] = "Isuzu";
+
+busBrands[4] = "Iveco";
+
+busBrands[5] = "Kamaz";
+
+busBrands[6] = "Marcopolo S.A.";
+
+busBrands[7] = "Mercedes Benz Daimler AG";
+
+busBrands[8] = "NFI Group";
+
+busBrands[9] = "Scania AB";
+
+busBrands[10] = "Solaris Bus";
+
+busBrands[11] = "Toyota";
+
+busBrands[12] = "Volkswagen (VW)";
+
+busBrands[13] = "Volvo";
+
+busBrands[14] = "Zhengzhou Yutong Bus Co., Ltd.";
+
+
+
+// feed the option element
+
+var optBusBrands;
+
+var selectBusBrands = document.getElementById("listBusBrands");
+
+for (iLoop = 0; iLoop < busBrands.length; iLoop++) {
+
+	optBusBrands = new Option(busBrands[iLoop], busBrands[iLoop]);
+
+	selectBusBrands.options.add(optBusBrands);
+
+}
+
+
+
+function doShowTheOptions(form) {
+
+document.getElementById("outputBusBrands").innerText = form.options[getSelectedValue()].value;
+
+}
+
+function getSelectedValue() {
+
+return document.frmBusBrands.listBusBrands.selectedIndex;
+
+}
+
+// -->
+
+</script>
+
+</body>
+
+</html>
